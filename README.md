@@ -48,6 +48,7 @@ See the [documentation index](docs/README.md) for the intended public documentat
 | Module | Core interface |
 | --- | --- |
 | Timeline | ![Timeline heat map and local map browser](docs/assets/images/timeline-heat-map.png) |
+| Calendar concept | ![Calendar movement-shadow concept](docs/assets/images/calendar-movement-concept.png) |
 | Sound Recorder | ![Sound Recorder transcript library and reader](docs/assets/images/sound-recorder-medications.png) |
 | Photos and Video | ![Media Backup Dashboard tagging table](docs/assets/images/photos-media-tagging.png) |
 | Photos and Video detail | ![Selected-media detail view](docs/assets/images/photos-media-detail.png) |

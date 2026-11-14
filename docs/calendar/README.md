@@ -12,6 +12,10 @@ The long-term goal is to reveal trends in which *types* of events move, how ofte
 
 The working theme is **the tension between intention and action**.
 
+![Concept mockup of current calendar events with translucent earlier placements](../assets/images/calendar-movement-concept.png)
+
+This image is an illustrative product mockup, not an implemented screen. Repeated titles identify one stable intention; translucent placements show where it previously lived, and ordinary events remain single solid blocks.
+
 ## Intended Views
 
 - **Placement shadows:** show earlier scheduled positions behind the current event.
@@ -23,7 +27,7 @@ The working theme is **the tension between intention and action**.
 
 ## Design Boundary
 
-Google Calendar can remain the operational calendar. This module would add memory and analysis around it. Necessary rest, health management, and deliberate reprioritization should not automatically be classified as failure; the system must expose evidence without pretending to know the reason for every move.
+Google Calendar can remain the operational backbone. This module is intended to overlay its audit, shadow, and analysis layer onto the familiar calendar rather than replace the calendar used for day-to-day scheduling. Necessary rest, health management, and deliberate reprioritization should not automatically be classified as failure; the system must expose evidence without pretending to know the reason for every move.
 
 ## First Research Questions
 

@@ -21,6 +21,8 @@ Google Maps Timeline is now primarily phone-held data. This module creates a cen
 
 Each phone export remains a distinct source until evidence shows that two corpuses are equivalent. Raw exports and generated local indexes are private; the public repository contains only the browser and import tooling.
 
+The local index is built from an on-device Google Maps Timeline JSON export copied from the phone's shared Downloads area, archived as raw evidence, and transformed into compact day, point, and segment indexes. It is not a live Google Maps API feed. Runtime status retains the source device and archive identity, and additional device exports remain separate until an explicit merge is performed.
+
 ## Direction
 
 The long-term goal is a device-independent personal location archive with reliable merging, address correlation, area-and-date queries, and a desktop map experience that is not constrained by Google's phone-only Timeline interface.
