@@ -28,4 +28,3 @@ node scripts\google_health_sync.mjs --analyze-only
 The analyzer distinguishes explicit true-zero movement records from missing data. Missing intervals are described as off-wrist or unsynced; short gaps may be labeled possible charging with low confidence. Recorded sleep takes precedence over nighttime inference.
 
 Google limits each daily-rollup request to 14 or 90 days depending on the data type. The synchronizer automatically walks the full known history in compliant chunks. Raw skin-temperature sensor telemetry uses the API's `v4beta` endpoint and may be empty on unsupported devices.
-
