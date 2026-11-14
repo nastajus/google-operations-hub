@@ -61,7 +61,7 @@ Use product features and intended application behavior, not brand name alone.
 | Irregular Rhythm Notifications | `googlehealth.irn.readonly` | Eligible product, firmware, country, account, and enabled feature |
 | Nutrition | `googlehealth.nutrition.readonly` | Logged account data; not inferred from wearable hardware |
 
-Only add a `writeonly` scope when the application actually sends or edits that category. Read and write permissions are separate. A newer release year is not enough to infer ECG, GPS, temperature, or IRN support; verify the product specification and inspect `users/me/pairedDevices` after authorization.
+A newer release year is not enough to infer ECG, GPS, temperature, or IRN support; verify the product specification and inspect `users/me/pairedDevices` after authorization.
 
 Useful rough expectations:
 
@@ -95,7 +95,7 @@ https://www.googleapis.com/auth/googlehealth.irn.readonly
 - **Location** is useful only when an exercise has a GPS trace, including phone-assisted GPS.
 - **IRN** is useful only when Irregular Rhythm Notifications are available and enabled. [Google lists Inspire 2 support](https://support.google.com/googlehealth/answer/14236719) at firmware `44.1.124.34` or newer, subject to eligibility and regional availability.
 
-The current dashboard does not need `settings.writeonly`; it reads settings and device status but does not modify them. Nutrition, ECG, reproductive health, mindfulness, and symptom scopes do not become useful merely because an Inspire 2 is paired.
+Nutrition, ECG, reproductive health, mindfulness, and symptom scopes do not become useful merely because an Inspire 2 is paired.
 
 ## 6. Create The OAuth Client
 

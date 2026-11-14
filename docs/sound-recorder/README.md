@@ -1,5 +1,7 @@
 # Sound Recorder Module
 
+![Sound Recorder module landing page](../assets/images/module-sound-recorder.png)
+
 The Sound Recorder portal treats transcripts as the primary archive and audio as optional large content. Recorder Web is authoritative for cloud identity, current title, recorded date, duration, and official transcript export; Drive and phone/ADB workflows remain segregated supplements.
 
 ## Source Priority

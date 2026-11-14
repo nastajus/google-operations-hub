@@ -11,11 +11,20 @@ The root `README.md` is the public landing page. Each substantive module owns a 
 
 ## Prototype And Utility Modules
 
-Timeline and Google Drive currently have internal operational notes containing machine-specific defaults. Their public manuals will be added after those workflows are generalized.
+- Calendar is an early product prototype for event-movement history and intent-versus-action analysis.
+- Timeline already has a working local map and search prototype, but its operational notes contain machine-specific defaults.
+- Google Drive remains a low-priority utility lane until its product purpose is clearer.
+
+## Related Projects
+
+- [Photos and Video project assessment](reports/photos-video-project-assessment.md)
+- [YouTube project assessment](reports/youtube-project-assessment.md)
+
+These are existing projects with independent data models and runtimes. The reports document current features and integration boundaries without prematurely merging their code into this repository.
 
 ## Scaffolded Modules
 
-Photos, Gmail, Calendar, Keep, Tasks, and YouTube currently provide portal structure but do not yet have enough implementation to justify separate manuals. Add `docs/<module>/README.md` when a module acquires a real data source, workflow, or operational contract.
+Gmail, Keep, and Tasks currently provide portal structure but do not yet have enough implementation to justify separate manuals. Add `docs/<module>/README.md` when a module acquires a real data source, workflow, or operational contract.
 
 ## Documentation Convention
 
