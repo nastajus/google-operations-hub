@@ -10,6 +10,7 @@ The root `README.md` is the public landing page. Each substantive module owns a 
 - [Sound Recorder](sound-recorder/README.md)
 - [Timeline](timeline/README.md)
 - [Calendar concept](calendar/README.md)
+  - [Self-directed deadlines research](calendar/self-directed-deadlines-research.md)
 
 ## Prototype And Utility Modules
 

@@ -32,7 +32,7 @@ See the [documentation index](docs/README.md) for the intended public documentat
 - **Timeline:** centralize per-phone Google Maps Timeline exports and restore searchable PC map browsing across devices.
 - **Photos and Video:** manage constrained cloud storage through offline evidence, Takeout reconciliation, similarity review, and guarded deletion queues.
 - **Gmail:** analyze roughly two decades of accumulated mail, identify spam and sender patterns, remove low-value bulk mail safely, and work toward zero unread.
-- **Calendar:** preserve an audit trail of intended event placement and every reschedule so repeated delay, avoidance, and intent-versus-action patterns become visible.
+- **Calendar:** turn an immutable audit trail of event movement into metrics and long-term trends, revealing which types of self-directed commitments are repeatedly deferred, completed, abandoned, or protected by external deadlines.
 - **Keep:** recover an overgrown note archive by inventorying labels and cards, organizing useful material, and making deliberate archive or purge decisions.
 - **Tasks:** provide a lightweight queue for overdue obligations, recurring work, and actions discovered in other modules.
 - **YouTube:** turn watch-history and live ActivityWatch evidence into interactive calendars, heatmaps, trends, and real-time feedback about viewing behavior.
@@ -51,7 +51,7 @@ See the [documentation index](docs/README.md) for the intended public documentat
 | Sound Recorder | ![Sound Recorder transcript library and reader](docs/assets/images/sound-recorder-medications.png) |
 | Photos and Video | ![Media Backup Dashboard tagging table](docs/assets/images/photos-media-tagging.png) |
 | YouTube history | ![YouTube history calendar and usage graphs](docs/assets/images/youtube-history-graphs.png) |
-| YouTube trends | ![YouTube trend analysis](docs/assets/images/youtube-trends-graphs.png) |
+| YouTube day detail | ![YouTube selected-day detail graph](docs/assets/images/youtube-day-detail.png) |
 | YouTube burstiness | ![YouTube burstiness analysis](docs/assets/images/youtube-burst-graphs.png) |
 
 </details>

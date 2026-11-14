@@ -2,7 +2,7 @@
 
 ![YouTube history calendar and usage graphs](../assets/images/youtube-history-graphs.png)
 
-![YouTube trend analysis](../assets/images/youtube-trends-graphs.png)
+![YouTube selected-day detail graph](../assets/images/youtube-day-detail.png)
 
 ![YouTube burstiness analysis](../assets/images/youtube-burst-graphs.png)
 
