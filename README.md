@@ -12,14 +12,16 @@ A local-first dashboard for managing Google-related archives and workflows. The 
 | --- | --- | --- |
 | Health | Active | [Health overview](docs/health/README.md) |
 | Sound Recorder | Active | [Recorder overview](docs/sound-recorder/README.md) |
-| Timeline | Prototype | Public documentation planned |
-| Photos and Video | External project | [Project assessment](docs/reports/photos-video-project-assessment.md) |
+| Timeline | Active prototype | [Timeline overview](docs/timeline/README.md) |
+| YouTube | External project* | [Project assessment](docs/reports/youtube-project-assessment.md) |
+| Photos and Video | External project* | [Project assessment](docs/reports/photos-video-project-assessment.md) |
 | Gmail | Concept | Planned |
-| Calendar | Prototype | Planned |
+| Calendar | Idea | [Calendar concept](docs/calendar/README.md) |
 | Keep | Concept | Planned |
-| Tasks | Scaffold | Planned |
-| YouTube | External project | [Project assessment](docs/reports/youtube-project-assessment.md) |
-| Drive | Utilities | Public documentation planned |
+| Tasks | Concept | Planned |
+| Drive | TBD | TBD |
+
+\* Exists as an independent project and is intended to be folded into the Hub in some form; the integration boundary is not settled.
 
 See the [documentation index](docs/README.md) for the intended public documentation structure.
 
@@ -38,27 +40,23 @@ See the [documentation index](docs/README.md) for the intended public documentat
 
 ## Interface Preview
 
-![Google Operations Hub overview](docs/assets/images/dashboard-overview.png)
+![Google Operations Hub service navigation](docs/assets/images/hub-sidebar.png)
 
 <details>
-<summary>Module landing pages</summary>
+<summary>Module feature previews</summary>
 
-| Module | Preview |
+| Module | Core interface |
 | --- | --- |
-| Health | ![Health landing page](docs/assets/images/module-health.png) |
-| Sound Recorder | ![Sound Recorder landing page](docs/assets/images/module-sound-recorder.png) |
-| Photos and Video | ![Photos landing page](docs/assets/images/module-photos.png) |
-| Timeline | ![Timeline landing page](docs/assets/images/module-timeline.png) |
-| Gmail | ![Gmail landing page](docs/assets/images/module-gmail.png) |
-| Calendar | ![Calendar landing page](docs/assets/images/module-calendar.png) |
-| Keep | ![Keep landing page](docs/assets/images/module-keep.png) |
-| Tasks | ![Tasks landing page](docs/assets/images/module-tasks.png) |
-| YouTube | ![YouTube landing page](docs/assets/images/module-youtube.png) |
-| Drive | ![Drive landing page](docs/assets/images/module-drive.png) |
+| Timeline | ![Timeline heat map and local map browser](docs/assets/images/timeline-heat-map.png) |
+| Sound Recorder | ![Sound Recorder transcript library and reader](docs/assets/images/sound-recorder-medications.png) |
+| Photos and Video | ![Media Backup Dashboard tagging table](docs/assets/images/photos-media-tagging.png) |
+| YouTube history | ![YouTube history calendar and usage graphs](docs/assets/images/youtube-history-graphs.png) |
+| YouTube trends | ![YouTube trend analysis](docs/assets/images/youtube-trends-graphs.png) |
+| YouTube burstiness | ![YouTube burstiness analysis](docs/assets/images/youtube-burst-graphs.png) |
 
 </details>
 
-The previews are cropped to public landing-page content and exclude local records, device state, paths, and account data.
+Feature screenshots are selected individually. Personal examples are included only when explicitly approved; other modules remain without screenshots until a representative view has been reviewed.
 
 ## Run
 

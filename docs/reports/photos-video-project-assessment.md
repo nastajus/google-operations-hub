@@ -1,10 +1,10 @@
 # Photos And Video Project Assessment
 
-![Photos and Video portal](../assets/images/module-photos.png)
+![Media Backup Dashboard tagging and evidence table](../assets/images/photos-media-tagging.png)
 
 ## Purpose
 
-The existing media project is a storage-pressure and evidence system, not just a gallery. Its job is to determine whether phone media has trustworthy offline or cloud evidence before proposing transfers or deletion. This directly supports the Hub's original quota-recovery goal.
+The media project helps a user keep Google Photos within a fixed storage limit without losing irreplaceable photos or videos. It combines fast visual tagging with backup evidence so large batches can be reviewed, organized, protected, transferred, or proposed for deletion with understandable safeguards.
 
 ## Existing Capabilities
 
@@ -14,6 +14,7 @@ The existing media project is a storage-pressure and evidence system, not just a
 - Maintains protected-media and deletion-history records for guarded phone cleanup.
 - Parses Google Takeout archives and produces reconciliation manifests and coverage reports.
 - Builds video similarity groups, location maps, duration caches, and candidate review batches.
+- Supports drag-and-drop emoji tagging for rapid review intent, grouping, and later batch decisions.
 - Keeps Google Photos cloud reconciliation separate from phone deletion and requires offline evidence before cloud-side deletion is considered.
 - Prototypes mobile swipe review, desktop batch review, browser-assisted cloud inspection, and an Android connectivity monitor.
 
@@ -35,7 +36,9 @@ Do not merge its data store or processing scripts into the Hub yet. Treat it as 
 - a compact generated summary containing inventory counts, protected items, unresolved cloud matches, and reclaimable bytes;
 - explicit links back to this assessment and the project's own operational documentation.
 
-This keeps high-risk deletion logic in the project that already owns its evidence model while allowing the Hub to become the navigation and status layer.
+This keeps high-risk deletion logic beside the evidence and review model while allowing the Hub to become the navigation and status layer.
+
+The Hub's Photos module can now start this existing local application and open it in a new browser tab. This is process-level integration only; the media project continues to own its server and private records.
 
 ## Boundary To Preserve
 

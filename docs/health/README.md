@@ -1,7 +1,5 @@
 # Health Module
 
-![Health module landing page](../assets/images/module-health.png)
-
 The Health portal connects Google Health account data to local archives and browser-based analysis. The current implementation focuses on Fitbit-compatible Google Health data, paired-device status, movement history, sleep, exercise, heart-rate-derived metrics, and missing-data analysis.
 
 ## Start Here

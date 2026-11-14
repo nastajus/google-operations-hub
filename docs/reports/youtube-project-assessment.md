@@ -1,6 +1,10 @@
 # YouTube Project Assessment
 
-![YouTube portal](../assets/images/module-youtube.png)
+![YouTube history calendar and usage graphs](../assets/images/youtube-history-graphs.png)
+
+![YouTube trend analysis](../assets/images/youtube-trends-graphs.png)
+
+![YouTube burstiness analysis](../assets/images/youtube-burst-graphs.png)
 
 ## Purpose
 
@@ -32,6 +36,8 @@ Keep the YouTube project independently runnable and let the Hub act as its porta
 - defer shared authentication or a combined data store until both projects have stable public contracts.
 
 This approach provides immediate integration value without duplicating a large interface or binding the Hub to the YouTube project's evolving data schema.
+
+The Hub's YouTube module can now start this existing local application and open its history dashboard in a new browser tab. This is process-level integration only; the YouTube project continues to own its server and private records.
 
 ## Boundary To Preserve
 

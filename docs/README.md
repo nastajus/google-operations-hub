@@ -8,10 +8,12 @@ The root `README.md` is the public landing page. Each substantive module owns a 
   - [Google Health API setup](health/google-health-setup.md)
   - [Movement explorer notes](../GOOGLE_HEALTH_MOVEMENT.md)
 - [Sound Recorder](sound-recorder/README.md)
+- [Timeline](timeline/README.md)
+- [Calendar concept](calendar/README.md)
 
 ## Prototype And Utility Modules
 
-- Calendar is an early product prototype for event-movement history and intent-versus-action analysis.
+- Calendar is a documented product idea for event-movement history and intent-versus-action analysis; it has not been implemented.
 - Timeline already has a working local map and search prototype, but its operational notes contain machine-specific defaults.
 - Google Drive remains a low-priority utility lane until its product purpose is clearer.
 
