@@ -30,7 +30,7 @@ See the [documentation index](docs/README.md) for the intended public documentat
 - **Health:** retrieve Google Health data into a private local archive and make movement, sleep, device status, gaps, and long-term patterns explorable.
 - **Sound Recorder:** synchronize Recorder Web transcripts as the authoritative archive, retain audio when requested, and reconcile phone or Drive exports as fallback evidence.
 - **Timeline:** centralize per-phone Google Maps Timeline exports and restore searchable PC map browsing across devices.
-- **Photos and Video:** manage constrained cloud storage through offline evidence, Takeout reconciliation, similarity review, and guarded deletion queues.
+- **Photos and Video:** review related media in batches, preserve permanent offline copies, and turn visual tagging into guarded phone and cloud cleanup queues that save repeated manual work.
 - **Gmail:** analyze roughly two decades of accumulated mail, identify spam and sender patterns, remove low-value bulk mail safely, and work toward zero unread.
 - **Calendar:** turn an immutable audit trail of event movement into metrics and long-term trends, revealing which types of self-directed commitments are repeatedly deferred, completed, abandoned, or protected by external deadlines.
 - **Keep:** recover an overgrown note archive by inventorying labels and cards, organizing useful material, and making deliberate archive or purge decisions.
@@ -50,6 +50,7 @@ See the [documentation index](docs/README.md) for the intended public documentat
 | Timeline | ![Timeline heat map and local map browser](docs/assets/images/timeline-heat-map.png) |
 | Sound Recorder | ![Sound Recorder transcript library and reader](docs/assets/images/sound-recorder-medications.png) |
 | Photos and Video | ![Media Backup Dashboard tagging table](docs/assets/images/photos-media-tagging.png) |
+| Photos and Video detail | ![Selected-media detail view](docs/assets/images/photos-media-detail.png) |
 | YouTube history | ![YouTube history calendar and usage graphs](docs/assets/images/youtube-history-graphs.png) |
 | YouTube day detail | ![YouTube selected-day detail graph](docs/assets/images/youtube-day-detail.png) |
 | YouTube burstiness | ![YouTube burstiness analysis](docs/assets/images/youtube-burst-graphs.png) |
