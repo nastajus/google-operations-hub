@@ -23,7 +23,7 @@ A local-first dashboard for managing Google-related archives and workflows. The 
 
 \* Exists as an independent project and is intended to be folded into the Hub in some form; the integration boundary is not settled.
 
-**YouTube documentation:** The [Hub assessment](docs/reports/youtube-project-assessment.md) is the concise, image-led overview of the module and its place in this multi-service dashboard. The standalone [YouTube History Dashboard README](https://github.com/nastajus/yt-watch-audit#readme) is the more detailed technical and operational reference. They describe the same external project at different levels of granularity and may be consolidated if the codebases are merged later.
+> **Related project:** YouTube remains an independently runnable project while also appearing as a module of this Hub. The [Hub assessment](docs/reports/youtube-project-assessment.md) is the concise, image-led product and integration overview; the standalone [YouTube History Dashboard README](https://github.com/nastajus/yt-watch-audit#readme) is the deeper technical and operational reference. They document the same project at different levels of granularity and may be consolidated if the repositories are merged later.
 
 See the [documentation index](docs/README.md) for the intended public documentation structure.
 
@@ -54,7 +54,7 @@ See the [documentation index](docs/README.md) for the intended public documentat
 | Sound Recorder | ![Sound Recorder transcript library and reader](docs/assets/images/sound-recorder-medications.png) |
 | Photos and Video | ![Media Backup Dashboard tagging table](docs/assets/images/photos-media-tagging.png) |
 | Photos and Video detail | ![Selected-media detail view](docs/assets/images/photos-media-detail.png) |
-| YouTube history | ![YouTube history calendar and usage graphs](docs/assets/images/youtube-history-graphs.png) |
+| YouTube history | ![YouTube history calendar with daily intensity and weekly review zones](docs/assets/images/youtube-history-calendar.webp) |
 | YouTube day detail | ![YouTube selected-day detail graph](docs/assets/images/youtube-day-detail.png) |
 | YouTube burstiness | ![YouTube burstiness analysis](docs/assets/images/youtube-burst-graphs.png) |
 

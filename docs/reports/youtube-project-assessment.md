@@ -1,16 +1,22 @@
 # YouTube Project Assessment
 
-![YouTube history calendar and usage graphs](../assets/images/youtube-history-graphs.png)
-
-![YouTube selected-day detail graph](../assets/images/youtube-day-detail.png)
-
-![Viewing Health Meter](../assets/images/youtube-health-meter.png)
-
-![Hourly burst rhythm](../assets/images/youtube-burst-rhythm.png)
-
 ## Purpose
 
 The existing YouTube project converts long-term viewing history and near-real-time browser evidence into user-friendly feedback. Its primary product is behavioral visibility: showing when, how much, and in what patterns YouTube is being used. Calendar cells use stronger color emphasis for heavier viewing days, while compact intraday strips and cluster highlighting reveal when viewing concentrates into contiguous bursts rather than being distributed across the day.
+
+## Core Interface
+
+### Calendar And Weekly Overview
+
+The primary calendar makes heavier days visually prominent while retaining intraday timing, evidence coverage, attention indicators, and week-level context.
+
+![YouTube history calendar with daily intensity and weekly review zones](../assets/images/youtube-history-calendar.webp)
+
+### Selected-Day Detail
+
+Selecting a day opens the underlying viewing sequence, duration estimates, groupings, and source links instead of leaving the calendar as a summary-only view.
+
+![YouTube selected-day detail graph](../assets/images/youtube-day-detail.png)
 
 ## Existing Capabilities
 
@@ -43,9 +49,17 @@ The health meter and fatigue/fragmentation interpretations are behavioral heuris
 
 The project already contains a data-build pipeline, local synchronization helper, scheduled refresh path, primary history dashboard, trend views, research pages, and diagnostic reports. It is more mature than the Hub's current YouTube placeholder.
 
+## Supporting Feedback Views
+
+The compact health and rhythm summaries provide secondary feedback after the main calendar and day-detail workflow.
+
+| Viewing load bands | Hourly burst rhythm |
+| --- | --- |
+| ![Viewing Health Meter](../assets/images/youtube-health-meter.png) | ![Hourly burst rhythm](../assets/images/youtube-burst-rhythm.png) |
+
 ## Additional Analysis Views
 
-The larger views are placed later so the opening remains focused on the calendar, selected-day drilldown, health meter, and compact burst rhythm.
+The larger views follow the core workflow and compact supporting summaries so they do not overwhelm the opening.
 
 ![Weekday and hour pattern charts](../assets/images/youtube-pattern-charts.png)
 
