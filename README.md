@@ -13,7 +13,7 @@ A local-first dashboard for managing Google-related archives and workflows. The 
 | Health | Active | [Health overview](docs/health/README.md) |
 | Sound Recorder | Active | [Recorder overview](docs/sound-recorder/README.md) |
 | Timeline | Active prototype | [Timeline overview](docs/timeline/README.md) |
-| YouTube | External project* | [Project assessment](docs/reports/youtube-project-assessment.md) |
+| YouTube | External project* | [Hub assessment](docs/reports/youtube-project-assessment.md) · [Standalone repository](https://github.com/nastajus/yt-watch-audit) |
 | Photos and Video | External project* | [Project assessment](docs/reports/photos-video-project-assessment.md) |
 | Gmail | Concept | Planned |
 | Calendar | Idea | [Calendar concept](docs/calendar/README.md) |
@@ -22,6 +22,8 @@ A local-first dashboard for managing Google-related archives and workflows. The 
 | Drive | TBD | TBD |
 
 \* Exists as an independent project and is intended to be folded into the Hub in some form; the integration boundary is not settled.
+
+**YouTube documentation:** The [Hub assessment](docs/reports/youtube-project-assessment.md) is the concise, image-led overview of the module and its place in this multi-service dashboard. The standalone [YouTube History Dashboard README](https://github.com/nastajus/yt-watch-audit#readme) is the more detailed technical and operational reference. They describe the same external project at different levels of granularity and may be consolidated if the codebases are merged later.
 
 See the [documentation index](docs/README.md) for the intended public documentation structure.
 
