@@ -1,6 +1,6 @@
-# Google Operations Dashboard
-
 <p align="center"><img src="docs/assets/images/google-operations-hub-logo.svg" width="96" height="96" alt="Google Operations Hub striped G logo"></p>
+
+# Google Operations Dashboard
 
 A local-first dashboard for managing Google-related archives and workflows. The application centralizes service portals while keeping credentials, account records, health data, location history, recordings, and generated inventories outside the public source tree.
 
