@@ -4,6 +4,8 @@
 
 A local-first dashboard for managing Google-related archives and workflows. The application centralizes service portals while keeping credentials, account records, health data, location history, recordings, and generated inventories outside the public source tree.
 
+<p align="center"><img src="docs/assets/images/multicolor-data-archive-nexus.png" width="900" alt="Multicolor data streams converging through a central Google hub into a local archive"></p>
+
 > **Publication status:** This public documentation preview intentionally omits application source and machine-specific operational notes while the first sanitized source release is prepared.
 
 ## Modules
